@@ -1,0 +1,34 @@
+artifact_path: /workspaces/NBA_project/mlflows/mlruns/1/models/m-11fc92ea01d04ec49fe2f0ed0210e1bf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-11fc92ea01d04ec49fe2f0ed0210e1bf
+model_size_bytes: 2550240
+model_uuid: m-11fc92ea01d04ec49fe2f0ed0210e1bf
+prompts: null
+run_id: 6e3ab68d2a2f4a68b59f3449963e9449
+signature:
+  inputs: '[{"type": "long", "name": "Anxiety", "required": true}, {"type": "long",
+    "name": "Exploratory", "required": true}, {"type": "double", "name": "While working",
+    "required": true}, {"type": "long", "name": "Frequency [R&B]", "required": true},
+    {"type": "long", "name": "Frequency [K pop]", "required": true}, {"type": "long",
+    "name": "Frequency [Pop]", "required": true}, {"type": "double", "name": "Instrumentalist",
+    "required": true}, {"type": "long", "name": "Composer", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-22 15:17:32.093511'

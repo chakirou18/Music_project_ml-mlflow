@@ -1,0 +1,23 @@
+artifact_path: /workspaces/NBA_project/mlflows/mlruns/1/models/m-17e68187da5449389dcbf721714b5c31/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-17e68187da5449389dcbf721714b5c31
+model_size_bytes: 4224803
+model_uuid: m-17e68187da5449389dcbf721714b5c31
+prompts: null
+run_id: 822327b130b84c64aea5cd065c87e045
+utc_time_created: '2026-06-22 15:14:18.934003'
